@@ -1,0 +1,13 @@
+series,model,train_quarters,MAE,MAPE,mean_error,pi95_coverage
+opioid_deaths,Seasonal naive,35,241.5,66.3,241.5,
+opioid_deaths,Holt (damped),35,229.1,63.0,229.1,
+opioid_deaths,"ARIMA(0, 1, 0)",35,207.3,57.1,207.3,50.0
+stimulant_deaths,Seasonal naive,27,188.5,49.8,188.5,
+stimulant_deaths,Holt (damped),27,218.3,58.2,218.3,
+stimulant_deaths,"ARIMA(0, 1, 0)",27,188.8,50.4,188.8,67.0
+opioid_hospitalizations,Seasonal naive,35,114.2,27.1,114.2,
+opioid_hospitalizations,Holt (damped),35,104.0,24.7,104.0,
+opioid_hospitalizations,"ARIMA(0, 1, 1)",35,111.9,26.5,111.9,50.0
+stimulant_hospitalizations,Seasonal naive,35,40.3,21.4,36.7,
+stimulant_hospitalizations,Holt (damped),35,48.3,25.5,42.2,
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",35,32.6,17.3,29.0,100.0

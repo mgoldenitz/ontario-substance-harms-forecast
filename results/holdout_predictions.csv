@@ -1,0 +1,73 @@
+series,model,quarter,actual,predicted
+opioid_deaths,Seasonal naive,2024Q4,436.0,631.0
+opioid_deaths,Seasonal naive,2025Q1,330.0,598.0
+opioid_deaths,Seasonal naive,2025Q2,327.0,652.0
+opioid_deaths,Seasonal naive,2025Q3,362.0,581.0
+opioid_deaths,Seasonal naive,2025Q4,398.0,631.0
+opioid_deaths,Seasonal naive,2026Q1,389.0,598.0
+opioid_deaths,Holt (damped),2024Q4,436.0,592.7
+opioid_deaths,Holt (damped),2025Q1,330.0,597.0
+opioid_deaths,Holt (damped),2025Q2,327.0,601.1
+opioid_deaths,Holt (damped),2025Q3,362.0,605.0
+opioid_deaths,Holt (damped),2025Q4,398.0,608.8
+opioid_deaths,Holt (damped),2026Q1,389.0,612.3
+opioid_deaths,"ARIMA(0, 1, 0)",2024Q4,436.0,581.0
+opioid_deaths,"ARIMA(0, 1, 0)",2025Q1,330.0,581.0
+opioid_deaths,"ARIMA(0, 1, 0)",2025Q2,327.0,581.0
+opioid_deaths,"ARIMA(0, 1, 0)",2025Q3,362.0,581.0
+opioid_deaths,"ARIMA(0, 1, 0)",2025Q4,398.0,581.0
+opioid_deaths,"ARIMA(0, 1, 0)",2026Q1,389.0,581.0
+stimulant_deaths,Seasonal naive,2024Q4,423.0,589.0
+stimulant_deaths,Seasonal naive,2025Q1,348.0,523.0
+stimulant_deaths,Seasonal naive,2025Q2,377.0,619.0
+stimulant_deaths,Seasonal naive,2025Q3,383.0,569.0
+stimulant_deaths,Seasonal naive,2025Q4,398.0,589.0
+stimulant_deaths,Seasonal naive,2026Q1,352.0,523.0
+stimulant_deaths,Holt (damped),2024Q4,423.0,585.5
+stimulant_deaths,Holt (damped),2025Q1,348.0,591.1
+stimulant_deaths,Holt (damped),2025Q2,377.0,596.4
+stimulant_deaths,Holt (damped),2025Q3,383.0,601.4
+stimulant_deaths,Holt (damped),2025Q4,398.0,606.1
+stimulant_deaths,Holt (damped),2026Q1,352.0,610.5
+stimulant_deaths,"ARIMA(0, 1, 0)",2024Q4,423.0,569.0
+stimulant_deaths,"ARIMA(0, 1, 0)",2025Q1,348.0,569.0
+stimulant_deaths,"ARIMA(0, 1, 0)",2025Q2,377.0,569.0
+stimulant_deaths,"ARIMA(0, 1, 0)",2025Q3,383.0,569.0
+stimulant_deaths,"ARIMA(0, 1, 0)",2025Q4,398.0,569.0
+stimulant_deaths,"ARIMA(0, 1, 0)",2026Q1,352.0,569.0
+opioid_hospitalizations,Seasonal naive,2024Q4,415.0,536.0
+opioid_hospitalizations,Seasonal naive,2025Q1,389.0,559.0
+opioid_hospitalizations,Seasonal naive,2025Q2,409.0,554.0
+opioid_hospitalizations,Seasonal naive,2025Q3,479.0,540.0
+opioid_hospitalizations,Seasonal naive,2025Q4,439.0,536.0
+opioid_hospitalizations,Seasonal naive,2026Q1,468.0,559.0
+opioid_hospitalizations,Holt (damped),2024Q4,415.0,537.2
+opioid_hospitalizations,Holt (damped),2025Q1,389.0,537.2
+opioid_hospitalizations,Holt (damped),2025Q2,409.0,537.2
+opioid_hospitalizations,Holt (damped),2025Q3,479.0,537.2
+opioid_hospitalizations,Holt (damped),2025Q4,439.0,537.2
+opioid_hospitalizations,Holt (damped),2026Q1,468.0,537.2
+opioid_hospitalizations,"ARIMA(0, 1, 1)",2024Q4,415.0,545.1
+opioid_hospitalizations,"ARIMA(0, 1, 1)",2025Q1,389.0,545.1
+opioid_hospitalizations,"ARIMA(0, 1, 1)",2025Q2,409.0,545.1
+opioid_hospitalizations,"ARIMA(0, 1, 1)",2025Q3,479.0,545.1
+opioid_hospitalizations,"ARIMA(0, 1, 1)",2025Q4,439.0,545.1
+opioid_hospitalizations,"ARIMA(0, 1, 1)",2026Q1,468.0,545.1
+stimulant_hospitalizations,Seasonal naive,2024Q4,209.0,233.0
+stimulant_hospitalizations,Seasonal naive,2025Q1,174.0,229.0
+stimulant_hospitalizations,Seasonal naive,2025Q2,184.0,253.0
+stimulant_hospitalizations,Seasonal naive,2025Q3,262.0,251.0
+stimulant_hospitalizations,Seasonal naive,2025Q4,193.0,233.0
+stimulant_hospitalizations,Seasonal naive,2026Q1,186.0,229.0
+stimulant_hospitalizations,Holt (damped),2024Q4,209.0,243.5
+stimulant_hospitalizations,Holt (damped),2025Q1,174.0,243.5
+stimulant_hospitalizations,Holt (damped),2025Q2,184.0,243.5
+stimulant_hospitalizations,Holt (damped),2025Q3,262.0,243.5
+stimulant_hospitalizations,Holt (damped),2025Q4,193.0,243.5
+stimulant_hospitalizations,Holt (damped),2026Q1,186.0,243.5
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",2024Q4,209.0,223.6
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",2025Q1,174.0,218.4
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",2025Q2,184.0,245.0
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",2025Q3,262.0,251.1
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",2025Q4,193.0,225.3
+stimulant_hospitalizations,"ARIMA(2, 1, 2)",2026Q1,186.0,218.4

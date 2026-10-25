@@ -1,0 +1,41 @@
+series,variant,order,aic,quarter,forecast,lo80,hi80,lo95,hi95
+opioid_deaths,No level shift,"(0, 1, 0)",458.4,2026Q2,389.0,295.8,482.2,246.5,531.5
+opioid_deaths,No level shift,"(0, 1, 0)",458.4,2026Q3,389.0,257.3,520.7,187.5,590.5
+opioid_deaths,No level shift,"(0, 1, 0)",458.4,2026Q4,389.0,227.6,550.4,142.2,635.8
+opioid_deaths,No level shift,"(0, 1, 0)",458.4,2027Q1,389.0,202.7,575.3,104.0,674.0
+opioid_deaths,No level shift,"(0, 1, 0)",458.4,2027Q2,389.0,180.7,597.3,70.4,707.6
+opioid_deaths,Level shift from 2024 Q4,"(0, 1, 0)",456.2,2026Q2,389.0,300.6,477.4,253.8,524.2
+opioid_deaths,Level shift from 2024 Q4,"(0, 1, 0)",456.2,2026Q3,389.0,264.0,514.0,197.8,580.2
+opioid_deaths,Level shift from 2024 Q4,"(0, 1, 0)",456.2,2026Q4,389.0,235.9,542.1,154.8,623.2
+opioid_deaths,Level shift from 2024 Q4,"(0, 1, 0)",456.2,2027Q1,389.0,212.2,565.8,118.6,659.4
+opioid_deaths,Level shift from 2024 Q4,"(0, 1, 0)",456.2,2027Q2,389.0,191.3,586.7,86.7,691.3
+stimulant_deaths,No level shift,"(0, 1, 0)",358.0,2026Q2,352.0,271.3,432.7,228.5,475.5
+stimulant_deaths,No level shift,"(0, 1, 0)",358.0,2026Q3,352.0,237.8,466.2,177.4,526.6
+stimulant_deaths,No level shift,"(0, 1, 0)",358.0,2026Q4,352.0,212.2,491.8,138.1,565.9
+stimulant_deaths,No level shift,"(0, 1, 0)",358.0,2027Q1,352.0,190.5,513.5,105.1,598.9
+stimulant_deaths,No level shift,"(0, 1, 0)",358.0,2027Q2,352.0,171.5,532.5,75.9,628.1
+stimulant_deaths,Level shift from 2024 Q4,"(1, 1, 2)",353.2,2026Q2,351.4,285.9,416.9,251.2,451.6
+stimulant_deaths,Level shift from 2024 Q4,"(1, 1, 2)",353.2,2026Q3,332.4,242.0,422.7,194.2,470.5
+stimulant_deaths,Level shift from 2024 Q4,"(1, 1, 2)",353.2,2026Q4,343.9,216.1,471.6,148.5,539.2
+stimulant_deaths,Level shift from 2024 Q4,"(1, 1, 2)",353.2,2027Q1,336.9,189.6,484.2,111.7,562.2
+stimulant_deaths,Level shift from 2024 Q4,"(1, 1, 2)",353.2,2027Q2,341.1,171.8,510.4,82.1,600.1
+opioid_hospitalizations,No level shift,"(1, 1, 1)",432.4,2026Q2,479.0,416.0,541.9,382.7,575.2
+opioid_hospitalizations,No level shift,"(1, 1, 1)",432.4,2026Q3,486.1,410.2,562.1,370.0,602.3
+opioid_hospitalizations,No level shift,"(1, 1, 1)",432.4,2026Q4,490.8,409.5,572.2,366.4,615.3
+opioid_hospitalizations,No level shift,"(1, 1, 1)",432.4,2027Q1,493.9,410.1,577.8,365.7,622.2
+opioid_hospitalizations,No level shift,"(1, 1, 1)",432.4,2027Q2,495.9,410.8,581.0,365.8,626.1
+opioid_hospitalizations,Level shift from 2024 Q4,"(1, 1, 1)",426.9,2026Q2,451.7,393.9,509.4,363.3,540.0
+opioid_hospitalizations,Level shift from 2024 Q4,"(1, 1, 1)",426.9,2026Q3,444.3,377.6,511.1,342.3,546.4
+opioid_hospitalizations,Level shift from 2024 Q4,"(1, 1, 1)",426.9,2026Q4,441.1,370.6,511.5,333.3,548.8
+opioid_hospitalizations,Level shift from 2024 Q4,"(1, 1, 1)",426.9,2027Q1,439.6,367.0,512.2,328.6,550.6
+opioid_hospitalizations,Level shift from 2024 Q4,"(1, 1, 1)",426.9,2027Q2,438.9,364.7,513.2,325.4,552.5
+stimulant_hospitalizations,No level shift,"(2, 1, 2)",400.6,2026Q2,228.0,188.8,267.2,168.1,288.0
+stimulant_hospitalizations,No level shift,"(2, 1, 2)",400.6,2026Q3,237.7,187.1,288.4,160.2,315.2
+stimulant_hospitalizations,No level shift,"(2, 1, 2)",400.6,2026Q4,197.0,137.7,256.3,106.3,287.7
+stimulant_hospitalizations,No level shift,"(2, 1, 2)",400.6,2027Q1,185.9,115.6,256.2,78.4,293.4
+stimulant_hospitalizations,No level shift,"(2, 1, 2)",400.6,2027Q2,225.3,144.8,305.8,102.2,348.4
+stimulant_hospitalizations,Level shift from 2024 Q4,"(2, 1, 2)",401.7,2026Q2,222.5,183.9,261.1,163.4,281.5
+stimulant_hospitalizations,Level shift from 2024 Q4,"(2, 1, 2)",401.7,2026Q3,236.8,187.7,285.8,161.8,311.8
+stimulant_hospitalizations,Level shift from 2024 Q4,"(2, 1, 2)",401.7,2026Q4,202.2,145.1,259.3,114.8,289.6
+stimulant_hospitalizations,Level shift from 2024 Q4,"(2, 1, 2)",401.7,2027Q1,186.8,118.5,255.0,82.4,291.2
+stimulant_hospitalizations,Level shift from 2024 Q4,"(2, 1, 2)",401.7,2027Q2,219.4,141.0,297.9,99.5,339.4
