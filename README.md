@@ -29,13 +29,17 @@ Every model over-forecast the holdout, because none of them could anticipate the
 
 Refit on all quarters, the ARIMA forecast for Ontario opioid deaths is 389 a quarter from Q2 2026 to Q2 2027, with a 95% interval of 254 to 524 in Q2 2026 widening to 87 to 691 by Q2 2027 (level-shift version). The level-shift term changed the opioid hospitalization forecast most: 452 for Q2 2026 with it and 479 without. All forecasts are in `results/forecasts.csv` and the charts in `images/`.
 
+Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell from 14.0 per 100,000 in 2024 to 8.7 in 2025 (down 38%), while Canada's fell from 16.2 to 13.7 (down 15%). Ontario's stimulant death rate fell from 13.2 to 9.3, and Canada's from 14.2 to 13.3. From 2019 to 2021 Ontario's death rates were at or slightly above Canada's for both substances. Ontario's hospitalization rates have been below Canada's in every year since 2016. Canada's totals include Ontario, so the gap with the rest of the country is larger than these figures show. The rates are in `results/ontario_vs_canada_rates.csv` and the chart is `images/ontario_vs_canada_rates.png`.
+
 ## Files
 
 `scripts/01_load_and_profile.py` reads the raw CSV, lists every Ontario and Canada series with its first and last period and its count of missing values (`data/processed/series_inventory.csv`), and writes the quarterly counts in long form (`data/processed/quarterly_on_ca.csv`).
 
 `scripts/02_holdout_and_forecast.py` fits the three models on Q1 2016 (Q1 2018 for stimulant deaths) to Q3 2024, scores them on Q4 2024 to Q1 2026, refits ARIMA on all quarters with and without a level-shift dummy, and writes the results and charts.
 
-To run both: `pip install pandas statsmodels matplotlib`, then `python scripts/01_load_and_profile.py` and `python scripts/02_holdout_and_forecast.py` from the repository root.
+`scripts/03_ontario_vs_canada.py` compares annual crude rates for 2016 to 2025 (2026 has only January to March).
+
+To run them: `pip install pandas statsmodels matplotlib`, then run the three scripts in order from the repository root.
 
 ## Limitations
 
