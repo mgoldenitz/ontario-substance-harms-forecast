@@ -2,7 +2,7 @@
 
 How many opioid- and stimulant-related deaths and hospitalizations should Ontario expect from Q2 2026 to Q2 2027, how wide is the uncertainty, and does Ontario's trend follow Canada's?
 
-Status: holdout comparison and first forecasts done in Python; Excel, R and Power BI versions not started. The project is also MATH59854 (Sheridan College) Group Work 2, due 14 December 2026. The working plan is in [SCOPE.md](SCOPE.md).
+Status: holdout comparison and first forecasts done in Python; Excel, R and Power BI versions not started. The working plan is in [SCOPE.md](SCOPE.md).
 
 ## Data
 
@@ -17,7 +17,7 @@ The series used here are Ontario and Canada overall quarterly counts:
 
 None of these Ontario series has a suppressed quarter. Ontario EMS responses start in 2017 and have five suppressed quarters, so they are left out. Annual crude rates per 100,000 are used to compare Ontario with Canada.
 
-Ontario's counts dropped sharply at the end of 2024. Opioid deaths were 581 in Q3 2024, 436 in Q4 2024 and 330 in Q1 2025, and stayed between 327 and 398 a quarter through Q1 2026. Stimulant deaths fell from 569 to 348 over the same three quarters.
+Ontario's counts dropped sharply at the end of 2024. Opioid deaths were 581 in Q3 2024, 436 in Q4 2024 and 330 in Q1 2025, and stayed between 327 and 398 through Q1 2026. Stimulant deaths fell from 569 to 348 over the same three quarters.
 
 ## Method
 
