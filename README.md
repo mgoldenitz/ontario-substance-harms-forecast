@@ -37,6 +37,8 @@ Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell f
 
 `scripts/02_holdout_and_forecast.py` fits the three models on Q1 2016 (Q1 2018 for stimulant deaths) to Q3 2024, scores them on Q4 2024 to Q1 2026, refits ARIMA on all quarters with and without a level-shift dummy, and writes the results and charts.
 
+`scripts/04_build_excel.py` builds `excel/ontario_forecast.xlsx`, which repeats the holdout test and the forecast with Excel formulas (FORECAST.ETS and FORECAST.ETS.CONFINT, seasonality 4) next to a seasonal naive baseline.
+
 `scripts/03_ontario_vs_canada.py` compares annual crude rates for 2016 to 2025 (2026 has only January to March).
 
 To run them: `pip install pandas statsmodels matplotlib`, then run the three scripts in order from the repository root.
