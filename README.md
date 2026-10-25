@@ -21,7 +21,7 @@ Ontario's counts dropped sharply at the end of 2024. Opioid deaths were 581 in Q
 
 ## Method
 
-Models are fit on Q1 2016 to Q3 2024 and tested on Q4 2024 to Q1 2026, the six quarters after the drop. A seasonal naive baseline, Holt's exponential smoothing and an ARIMA chosen by AIC are compared on MAE and MAPE. The final forecasts use all quarters, with and without a level-shift term from Q4 2024, and report 80% and 95% prediction intervals. The same forecasts are repeated in Excel and R, and a Power BI report shows them with the forecast visual.
+Models are fit on Q1 2016 to Q3 2024 and tested on Q4 2024 to Q1 2026, the six quarters from the start of the drop. A seasonal naive baseline, Holt's exponential smoothing with a damped trend and an ARIMA chosen by AIC are compared on MAE and MAPE. The final forecasts use all quarters, with and without a level-shift term from Q4 2024, and report 80% and 95% prediction intervals. The same forecasts are repeated in Excel and R, and a Power BI report shows them with the forecast visual.
 
 ## Results so far
 
