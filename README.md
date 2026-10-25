@@ -2,7 +2,7 @@
 
 How many opioid- and stimulant-related deaths and hospitalizations should Ontario expect from Q2 2026 to Q2 2027, how wide is the uncertainty, and does Ontario's trend follow Canada's?
 
-Status: holdout comparison and first forecasts done in Python; Excel, R and Power BI versions not started. The working plan is in [SCOPE.md](SCOPE.md).
+Status: Python, Excel and R versions done; Power BI report data and build steps ready, report not yet built. The working plan is in [SCOPE.md](SCOPE.md).
 
 ## Data
 
@@ -39,13 +39,15 @@ Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell f
 
 `scripts/02_holdout_and_forecast.py` fits the three models on Q1 2016 (Q1 2018 for stimulant deaths) to Q3 2024, scores them on Q4 2024 to Q1 2026, refits ARIMA on all quarters with and without a level-shift dummy, and writes the results and charts.
 
+`scripts/03_ontario_vs_canada.py` compares annual crude rates for 2016 to 2025 (2026 has only January to March).
+
 `scripts/04_build_excel.py` builds `excel/ontario_forecast.xlsx`, which repeats the holdout test and the forecast with Excel formulas (FORECAST.ETS and FORECAST.ETS.CONFINT, seasonality 4) next to a seasonal naive baseline.
 
 `scripts/05_forecast.R` repeats the holdout test and forecast in R with the forecast package (snaive, ets, auto.arima, and auto.arima with a level-shift regressor). It writes `results/r_holdout_metrics.csv`, `results/r_forecasts.csv` and `images/r_forecast_<series>.png`. Run it with `Rscript scripts/05_forecast.R` after script 01; it needs the forecast package.
 
-`scripts/03_ontario_vs_canada.py` compares annual crude rates for 2016 to 2025 (2026 has only January to March).
+`scripts/06_powerbi_export.py` writes `powerbi/powerbi_quarterly.csv` (actual counts for Ontario and Canada plus the Ontario forecasts with interval bounds). `powerbi/POWERBI_STEPS.md` has the steps for building the report.
 
-To run them: `pip install pandas statsmodels matplotlib`, then run the three scripts in order from the repository root.
+To run them: `pip install pandas statsmodels matplotlib openpyxl`, then run the Python scripts in number order from the repository root. Script 05 needs R and the forecast package.
 
 ## Limitations
 
