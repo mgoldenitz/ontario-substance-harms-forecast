@@ -29,6 +29,8 @@ Every model over-forecast the holdout, because none of them could anticipate the
 
 Refit on all quarters, the ARIMA forecast for Ontario opioid deaths is 389 a quarter from Q2 2026 to Q2 2027, with a 95% interval of 254 to 524 in Q2 2026 widening to 87 to 691 by Q2 2027 (level-shift version). The level-shift term changed the opioid hospitalization forecast most: 452 for Q2 2026 with it and 479 without. All forecasts are in `results/forecasts.csv` and the charts in `images/`.
 
+The three tools agree on the main result. R's auto.arima picked the same ARIMA(0,1,0) for opioid deaths as the Python search, with the same holdout MAE of 207.3 and the same forecast of 389 a quarter. Excel's FORECAST.ETS did worst on opioid deaths (MAPE 84%) because it carried the upward trend forward; R's ets() chose a model without a trend and had a MAPE of 58%.
+
 Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell from 14.0 per 100,000 in 2024 to 8.7 in 2025 (down 38%), while Canada's fell from 16.2 to 13.7 (down 15%). Ontario's stimulant death rate fell from 13.2 to 9.3, and Canada's from 14.2 to 13.3. From 2019 to 2021 Ontario's death rates were at or slightly above Canada's for both substances. Ontario's hospitalization rates have been below Canada's in every year since 2016. Canada's totals include Ontario, so the gap with the rest of the country is larger than these figures show. The rates are in `results/ontario_vs_canada_rates.csv` and the chart is `images/ontario_vs_canada_rates.png`.
 
 ## Files
@@ -38,6 +40,8 @@ Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell f
 `scripts/02_holdout_and_forecast.py` fits the three models on Q1 2016 (Q1 2018 for stimulant deaths) to Q3 2024, scores them on Q4 2024 to Q1 2026, refits ARIMA on all quarters with and without a level-shift dummy, and writes the results and charts.
 
 `scripts/04_build_excel.py` builds `excel/ontario_forecast.xlsx`, which repeats the holdout test and the forecast with Excel formulas (FORECAST.ETS and FORECAST.ETS.CONFINT, seasonality 4) next to a seasonal naive baseline.
+
+`scripts/05_forecast.R` repeats the holdout test and forecast in R with the forecast package (snaive, ets, auto.arima, and auto.arima with a level-shift regressor). It writes `results/r_holdout_metrics.csv`, `results/r_forecasts.csv` and `images/r_forecast_<series>.png`. Run it with `Rscript scripts/05_forecast.R` after script 01; it needs the forecast package.
 
 `scripts/03_ontario_vs_canada.py` compares annual crude rates for 2016 to 2025 (2026 has only January to March).
 

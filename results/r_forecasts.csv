@@ -1,0 +1,41 @@
+"series","variant","model","quarter","forecast","lo80","hi80","lo95","hi95"
+"opioid_deaths","No level shift","ARIMA(0,1,0)","2026 Q2",389,295.8,482.2,246.5,531.5
+"opioid_deaths","No level shift","ARIMA(0,1,0)","2026 Q3",389,257.3,520.7,187.5,590.5
+"opioid_deaths","No level shift","ARIMA(0,1,0)","2026 Q4",389,227.7,550.3,142.2,635.8
+"opioid_deaths","No level shift","ARIMA(0,1,0)","2027 Q1",389,202.7,575.3,104.1,673.9
+"opioid_deaths","No level shift","ARIMA(0,1,0)","2027 Q2",389,180.7,597.3,70.4,707.6
+"opioid_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2026 Q2",389,299.5,478.5,252.1,525.9
+"opioid_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2026 Q3",389,262.4,515.6,195.4,582.6
+"opioid_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2026 Q4",389,233.9,544.1,151.8,626.2
+"opioid_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2027 Q1",389,209.9,568.1,115.2,662.8
+"opioid_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2027 Q2",389,188.8,589.2,82.8,695.2
+"stimulant_deaths","No level shift","ARIMA(0,1,0)","2026 Q2",352,271.3,432.7,228.5,475.5
+"stimulant_deaths","No level shift","ARIMA(0,1,0)","2026 Q3",352,237.8,466.2,177.4,526.6
+"stimulant_deaths","No level shift","ARIMA(0,1,0)","2026 Q4",352,212.2,491.8,138.2,565.8
+"stimulant_deaths","No level shift","ARIMA(0,1,0)","2027 Q1",352,190.5,513.5,105.1,598.9
+"stimulant_deaths","No level shift","ARIMA(0,1,0)","2027 Q2",352,171.5,532.5,75.9,628.1
+"stimulant_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2026 Q2",352,277.2,426.8,237.6,466.4
+"stimulant_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2026 Q3",352,246.2,457.8,190.2,513.8
+"stimulant_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2026 Q4",352,222.4,481.6,153.8,550.2
+"stimulant_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2027 Q1",352,202.4,501.6,123.1,580.9
+"stimulant_deaths","Level shift from 2024 Q4","Regression with ARIMA(0,1,0) errors","2027 Q2",352,184.7,519.3,96.1,607.9
+"opioid_hospitalizations","No level shift","ARIMA(1,0,0) with non-zero mean","2026 Q2",481.1,418.1,544.1,384.7,577.4
+"opioid_hospitalizations","No level shift","ARIMA(1,0,0) with non-zero mean","2026 Q3",489,415.3,562.6,376.3,601.6
+"opioid_hospitalizations","No level shift","ARIMA(1,0,0) with non-zero mean","2026 Q4",493.8,416.6,570.9,375.7,611.8
+"opioid_hospitalizations","No level shift","ARIMA(1,0,0) with non-zero mean","2027 Q1",496.7,418.2,575.1,376.7,616.6
+"opioid_hospitalizations","No level shift","ARIMA(1,0,0) with non-zero mean","2027 Q2",498.4,419.5,577.3,377.8,619.1
+"opioid_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(0,1,1) errors","2026 Q2",458.3,397.2,519.4,364.8,551.8
+"opioid_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(0,1,1) errors","2026 Q3",458.3,386.8,529.8,348.9,567.7
+"opioid_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(0,1,1) errors","2026 Q4",458.3,377.7,538.9,335,581.6
+"opioid_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(0,1,1) errors","2027 Q1",458.3,369.5,547.1,322.6,594.1
+"opioid_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(0,1,1) errors","2027 Q2",458.3,362.1,554.5,311.1,605.5
+"stimulant_hospitalizations","No level shift","ARIMA(1,0,0)(0,1,2)[4]","2026 Q2",212.7,175.5,249.9,155.8,269.6
+"stimulant_hospitalizations","No level shift","ARIMA(1,0,0)(0,1,2)[4]","2026 Q3",272.1,228.6,315.7,205.5,338.7
+"stimulant_hospitalizations","No level shift","ARIMA(1,0,0)(0,1,2)[4]","2026 Q4",217.5,171.8,263.1,147.7,287.3
+"stimulant_hospitalizations","No level shift","ARIMA(1,0,0)(0,1,2)[4]","2027 Q1",215.7,169.4,262,144.9,286.5
+"stimulant_hospitalizations","No level shift","ARIMA(1,0,0)(0,1,2)[4]","2027 Q2",250.4,192,308.8,161,339.8
+"stimulant_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(1,0,0)(0,0,1)[4] errors","2026 Q2",192.8,155.9,229.7,136.4,249.2
+"stimulant_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(1,0,0)(0,0,1)[4] errors","2026 Q3",261.3,220.2,302.5,198.4,324.2
+"stimulant_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(1,0,0)(0,0,1)[4] errors","2026 Q4",215.6,173.5,257.7,151.2,280
+"stimulant_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(1,0,0)(0,0,1)[4] errors","2027 Q1",223.1,180.8,265.4,158.4,287.8
+"stimulant_hospitalizations","Level shift from 2024 Q4","Regression with ARIMA(1,0,0)(0,0,1)[4] errors","2027 Q2",219.6,165.1,274.1,136.2,302.9
