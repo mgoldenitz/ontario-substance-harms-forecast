@@ -1,0 +1,65 @@
+Substance,Source,Specific_Measure,Region,Time_Period,Unit,first,last,periods,missing
+Opioids,Deaths,Involving other psychoactive substances,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Deaths,Involving other psychoactive substances,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Deaths,Involving stimulants,Canada,By year,Percent,2018,2026 (Jan to Mar),9,0
+Opioids,Deaths,Involving stimulants,Ontario,By year,Percent,2018,2026 (Jan to Mar),9,0
+Opioids,Deaths,Overall numbers,Canada,By quarter,Number,2016 Q1,2026 Q1,41,0
+Opioids,Deaths,Overall numbers,Canada,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Opioids,Deaths,Overall numbers,Canada,By year,Number,2016,2026 (Jan to Mar),11,0
+Opioids,Deaths,Overall numbers,Ontario,By quarter,Number,2016 Q1,2026 Q1,41,0
+Opioids,Deaths,Overall numbers,Ontario,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Opioids,Deaths,Overall numbers,Ontario,By year,Number,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Involving other psychoactive substances,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Involving other psychoactive substances,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Involving stimulants,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Involving stimulants,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Overall numbers,Canada,By quarter,Number,2016 Q1,2026 Q1,41,0
+Opioids,Emergency Department (ED) Visits,Overall numbers,Canada,By year,Crude rate,2016,2026 (Jan to Mar),11,11
+Opioids,Emergency Department (ED) Visits,Overall numbers,Canada,By year,Number,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Overall numbers,Ontario,By quarter,Number,2016 Q1,2026 Q1,41,0
+Opioids,Emergency Department (ED) Visits,Overall numbers,Ontario,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Department (ED) Visits,Overall numbers,Ontario,By year,Number,2016,2026 (Jan to Mar),11,0
+Opioids,Emergency Medical Services (EMS),Overall numbers,Canada,By quarter,Number,2017 Q1,2026 Q1,37,0
+Opioids,Emergency Medical Services (EMS),Overall numbers,Canada,By year,Number,2017,2026 (Jan to Mar),10,0
+Opioids,Emergency Medical Services (EMS),Overall numbers,Ontario,By quarter,Number,2017 Q1,2026 Q1,37,5
+Opioids,Emergency Medical Services (EMS),Overall numbers,Ontario,By year,Number,2017,2026 (Jan to Mar),10,1
+Opioids,Hospitalizations,Involving other psychoactive substances,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Involving other psychoactive substances,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Involving stimulants,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Involving stimulants,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Overall numbers,Canada,By quarter,Number,2016 Q1,2026 Q1,41,0
+Opioids,Hospitalizations,Overall numbers,Canada,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Overall numbers,Canada,By year,Number,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Overall numbers,Ontario,By quarter,Number,2016 Q1,2026 Q1,41,0
+Opioids,Hospitalizations,Overall numbers,Ontario,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Opioids,Hospitalizations,Overall numbers,Ontario,By year,Number,2016,2026 (Jan to Mar),11,0
+Stimulants,Deaths,Involving opioids,Canada,By year,Percent,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Involving opioids,Ontario,By year,Percent,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Involving other psychoactive substances,Canada,By year,Percent,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Involving other psychoactive substances,Ontario,By year,Percent,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Overall numbers,Canada,By quarter,Number,2018 Q1,2026 Q1,33,0
+Stimulants,Deaths,Overall numbers,Canada,By year,Crude rate,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Overall numbers,Canada,By year,Number,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Overall numbers,Ontario,By quarter,Number,2018 Q1,2026 Q1,33,0
+Stimulants,Deaths,Overall numbers,Ontario,By year,Crude rate,2018,2026 (Jan to Mar),9,0
+Stimulants,Deaths,Overall numbers,Ontario,By year,Number,2018,2026 (Jan to Mar),9,0
+Stimulants,Emergency Department (ED) Visits,Involving opioids,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Emergency Department (ED) Visits,Involving opioids,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Emergency Department (ED) Visits,Involving other psychoactive substances,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Emergency Department (ED) Visits,Involving other psychoactive substances,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Emergency Department (ED) Visits,Overall numbers,Canada,By quarter,Number,2016 Q1,2026 Q1,41,0
+Stimulants,Emergency Department (ED) Visits,Overall numbers,Canada,By year,Crude rate,2016,2026 (Jan to Mar),11,11
+Stimulants,Emergency Department (ED) Visits,Overall numbers,Canada,By year,Number,2016,2026 (Jan to Mar),11,0
+Stimulants,Emergency Department (ED) Visits,Overall numbers,Ontario,By quarter,Number,2016 Q1,2026 Q1,41,0
+Stimulants,Emergency Department (ED) Visits,Overall numbers,Ontario,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Stimulants,Emergency Department (ED) Visits,Overall numbers,Ontario,By year,Number,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Involving opioids,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Involving opioids,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Involving other psychoactive substances,Canada,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Involving other psychoactive substances,Ontario,By year,Percent,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Overall numbers,Canada,By quarter,Number,2016 Q1,2026 Q1,41,0
+Stimulants,Hospitalizations,Overall numbers,Canada,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Overall numbers,Canada,By year,Number,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Overall numbers,Ontario,By quarter,Number,2016 Q1,2026 Q1,41,0
+Stimulants,Hospitalizations,Overall numbers,Ontario,By year,Crude rate,2016,2026 (Jan to Mar),11,0
+Stimulants,Hospitalizations,Overall numbers,Ontario,By year,Number,2016,2026 (Jan to Mar),11,0
