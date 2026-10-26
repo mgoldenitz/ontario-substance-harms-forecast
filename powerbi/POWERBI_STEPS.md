@@ -21,8 +21,8 @@ High 95 = SUM(powerbi_quarterly[hi95])
 Low 80 = SUM(powerbi_quarterly[lo80])
 High 80 = SUM(powerbi_quarterly[hi80])
 Last actual = 
-    VAR lastDate = CALCULATE(MAX(powerbi_quarterly[quarter_start]), powerbi_quarterly[row_type] = "Actual")
-    RETURN CALCULATE([Actual], powerbi_quarterly[quarter_start] = lastDate)
+    VAR maxActualDate = CALCULATE(MAX(powerbi_quarterly[quarter_start]), powerbi_quarterly[row_type] = "Actual")
+    RETURN CALCULATE([Actual], powerbi_quarterly[quarter_start] = maxActualDate)
 ```
 
 ## Page 1: Ontario forecast
