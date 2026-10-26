@@ -1,4 +1,4 @@
-# Ontario substance harms forecast: scope
+# Ontario Substance Harms Forecast: Scope
 
 Draft, updated 25 October 2026 after profiling the data. This is a working plan for the project. It is not the README.
 
@@ -8,7 +8,7 @@ How many opioid- and stimulant-related deaths and hospitalizations should Ontari
 
 ## Data
 
-The main source is the Public Health Agency of Canada's opioid and stimulant harms data on Health Infobase (health-infobase.canada.ca/substance-related-harms/opioids-stimulants), downloaded 25 October 2026 as SubstanceHarmsData.csv (33,250 rows). Columns are Substance, Source, Specific_Measure, Region, PRUID, Time_Period, Year_Quarter, Aggregator, Disaggregator, Unit and Value. Sources are deaths, hospitalizations, emergency department visits and EMS responses. 4,543 values are marked "Suppr.".
+The main source is the Public Health Agency of Canada's opioid and stimulant harms data on Health Infobase (health-infobase.canada.ca/substance-related-harms/opioids-stimulants), downloaded 25 October 2026 as SubstanceHarmsData.csv (33,250 rows). Columns are Substance, Source, Specific\_Measure, Region, PRUID, Time\_Period, Year\_Quarter, Aggregator, Disaggregator, Unit and Value. Sources are deaths, hospitalizations, emergency department visits and EMS responses. 4,543 values are marked "Suppr.".
 
 For Ontario and Canada, the overall quarterly counts run from Q1 2016 to Q1 2026 (41 quarters) for opioid deaths, opioid hospitalizations, stimulant hospitalizations and both ED series. Stimulant deaths start in Q1 2018 (33 quarters). None of these Ontario series has a suppressed quarter. Ontario EMS starts in 2017 and has five suppressed quarters, so it is out of scope. Annual crude rates per 100,000 exist for every series except Canada's ED visits.
 
@@ -16,7 +16,7 @@ The Ontario series have a sharp break at the end of 2024. Opioid deaths were 581
 
 The Canadian Substance Use Survey public-use microdata file is for context only (for example, the share of Ontario respondents reporting past-year use of a stimulant). Any figure taken from it will be a weighted percentage, and cells with small unweighted counts will not be reported.
 
-## Series to forecast
+## Series to Forecast
 
 Four Ontario quarterly counts: opioid toxicity deaths, stimulant toxicity deaths, opioid-related poisoning hospitalizations and stimulant-related poisoning hospitalizations. Canada gets the same four series for comparison. Annual crude rates per 100,000 put Ontario and Canada on one scale, since raw counts differ by an order of magnitude. Which of the four series have a full, unsuppressed quarterly history will be settled once the file is profiled; the definitions and coverage notes for each source (deaths from coroners and medical examiners, hospitalizations from hospital discharge data) also need to be read before committing to them.
 
@@ -35,3 +35,4 @@ The break is the main finding the project has to handle. A model fit through Q3 
 ## Limitations to state
 
 Counts are the most recent release and earlier quarters get revised. Forecasts extrapolate the past and cannot anticipate a change in the drug supply or in policy. Hospitalization and death definitions differ by source and province, so Ontario versus Canada comparisons use rates and the same source only.
+
