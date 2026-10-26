@@ -32,10 +32,6 @@ Four Ontario quarterly counts: opioid toxicity deaths, stimulant toxicity deaths
 
 The break is the main finding the project has to handle. A model fit through Q3 2024 will over-forecast the holdout, and the write-up should say by how much and why the level-shift model is or is not better.
 
-## Portfolio deliverables
-
-A GitHub repo (ontario-substance-harms-forecast) with a README covering question, data, method, findings, limitations and tools; one forecast chart as the screenshot; a 150-word LinkedIn post; a resume bullet with the holdout error and the forecast range.
-
 ## Limitations to state
 
 Counts are the most recent release and earlier quarters get revised. Forecasts extrapolate the past and cannot anticipate a change in the drug supply or in policy. Hospitalization and death definitions differ by source and province, so Ontario versus Canada comparisons use rates and the same source only.
