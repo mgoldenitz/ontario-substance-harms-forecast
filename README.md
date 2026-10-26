@@ -1,6 +1,6 @@
 # Ontario substance harms forecast
 
-How many opioid- and stimulant-related deaths and hospitalizations should Ontario expect from Q2 2026 to Q2 2027, how wide is the uncertainty, and does Ontario's trend follow Canada's?
+How many opioid and stimulant related deaths and hospitalizations should Ontario expect from Q2 2026 to Q2 2027, how wide is the uncertainty, and does Ontario's trend follow Canada's?
 
 Status: Python, Excel, R and Power BI versions done. The working plan is in [SCOPE.md](SCOPE.md).
 
