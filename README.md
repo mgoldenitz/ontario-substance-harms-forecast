@@ -23,9 +23,9 @@ Ontario's counts dropped sharply at the end of 2024. Opioid deaths were 581 in Q
 
 Models are fit on Q1 2016 to Q3 2024 and tested on Q4 2024 to Q1 2026, the six quarters from the start of the drop. A seasonal naive baseline, Holt's exponential smoothing with a damped trend and an ARIMA chosen by AIC are compared on MAE and MAPE. The final forecasts use all quarters, with and without a level-shift term from Q4 2024, and report 80% and 95% prediction intervals. The same forecasts are repeated in Excel and R, and a Power BI report shows them with the forecast visual.
 
-## Results so far
+## Results
 
-Every model over-forecast the holdout, because none of them could anticipate the drop that began in Q4 2024. For Ontario opioid deaths the best model, ARIMA(0,1,0), was off by 207 deaths a quarter on average (MAPE 57%), and only 3 of the 6 actual quarters fell inside its 95% interval. The seasonal naive baseline was off by 242 (MAPE 66%). For stimulant deaths the seasonal naive and ARIMA(0,1,0) tied at about 189 (MAPE 50%). Hospitalizations were easier: damped Holt had a MAPE of 25% for opioids, and ARIMA(2,1,2) had 17% for stimulants. Full results are in `results/holdout_metrics.csv`.
+The models over-forecast because Ontario opioid deaths fell from 581 to 330 a quarter between Q3 2024 and Q1 2025, which none of them could anticipate. Every model over-forecast the holdout, because none of them could anticipate the drop that began in Q4 2024. For Ontario opioid deaths the best model, ARIMA(0,1,0), was off by 207 deaths a quarter on average (MAPE 57%), and only 3 of the 6 actual quarters fell inside its 95% interval. The seasonal naive baseline was off by 242 (MAPE 66%). For stimulant deaths the seasonal naive and ARIMA(0,1,0) tied at about 189 (MAPE 50%). Hospitalizations were easier: damped Holt had a MAPE of 25% for opioids, and ARIMA(2,1,2) had 17% for stimulants. Full results are in `results/holdout_metrics.csv`.
 
 Refit on all quarters, the ARIMA forecast for Ontario opioid deaths is 389 a quarter from Q2 2026 to Q2 2027, with a 95% interval of 254 to 524 in Q2 2026 widening to 87 to 691 by Q2 2027 (level-shift version). The level-shift term changed the opioid hospitalization forecast most: 452 for Q2 2026 with it and 479 without. All forecasts are in `results/forecasts.csv` and the charts in `images/`.
 
