@@ -43,6 +43,16 @@ Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell f
 
 ![Power BI forecast check page](images/powerbi_forecast_check.png)
 
+## Diagrams
+
+![Data flow](images/diagram-dataflow.svg)
+
+Health Infobase CSV to holdout tests, forecasts, Excel and Power BI.
+
+![Holdout and forecast steps](images/diagram-lifecycle.svg)
+
+How each series moves through 02_holdout_and_forecast.py.
+
 ## Files
 
 `scripts/01_load_and_profile.py` reads the raw CSV, lists every Ontario and Canada series with its first and last period and its count of missing values (`data/processed/series_inventory.csv`), and writes the quarterly counts in long form (`data/processed/quarterly_on_ca.csv`).
