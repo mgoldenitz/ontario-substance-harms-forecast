@@ -13,3 +13,10 @@ venv/
 Thumbs.db
 desktop.ini
 Rplots.pdf
+
+# Local files
+linkedin_project.md
+images/linkedin_github_thumbnail.png
+images/thumbnails/
+style-samples.md
+writing-style.md
