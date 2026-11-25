@@ -67,7 +67,7 @@ How each series moves through 02_holdout_and_forecast.py.
 
 `scripts/06_powerbi_export.py` writes `powerbi/powerbi_quarterly.csv` (actual counts for Ontario and Canada plus the Ontario forecasts with interval bounds). `powerbi/POWERBI_STEPS.md` has the steps for building the report.
 
-To run them: `pip install pandas statsmodels matplotlib openpyxl`, then run the Python scripts in number order from the repository root. Script 05 needs R and the forecast package.
+To run them: `pip install -r requirements.txt`, then run the Python scripts in number order from the repository root. Script 05 needs R and the forecast package.
 
 ## Limitations
 
