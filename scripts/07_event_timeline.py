@@ -1,4 +1,4 @@
-"""Ontario quarterly deaths with dated policy events drawn on the chart.
+"""Ontario quarterly deaths with dated policy and drug-supply events drawn on the chart.
 
 The events are annotations only. They are not inputs to any model.
 
@@ -44,7 +44,7 @@ for i, row in enumerate(events.itertuples(), start=1):
     ax.annotate(f"{i}. {row.short_label}\n{row.date:%d %b %Y}", (row.date, top * (0.97 - 0.09 * (i - 1))),
                 xytext=(4, 0), textcoords="offset points", fontsize=8, va="top")
 
-ax.set_title("Ontario opioid and stimulant deaths per quarter, with provincial policy events")
+ax.set_title("Ontario opioid and stimulant deaths per quarter, with policy and drug-supply events")
 ax.set_ylabel("Deaths per quarter")
 ax.set_xlabel("Each point is drawn at the start of its quarter")
 ax.set_ylim(bottom=0)
