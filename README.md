@@ -33,6 +33,10 @@ The three tools agree on the main result. R's auto.arima picked the same ARIMA(0
 
 Ontario's 2025 drop was larger than Canada's. Ontario's opioid death rate fell from 14.0 per 100,000 in 2024 to 8.7 in 2025 (down 38%), while Canada's fell from 16.2 to 13.7 (down 15%). Ontario's stimulant death rate fell from 13.2 to 9.3, and Canada's from 14.2 to 13.3. From 2019 to 2021 Ontario's death rates were at or slightly above Canada's for both substances. Ontario's hospitalization rates have been below Canada's in every year since 2016. Canada's totals include Ontario, so the gap with the rest of the country is larger than these figures show. The rates are in `results/ontario_vs_canada_rates.csv` and the chart is `images/ontario_vs_canada_rates.png`.
 
+The provincial policy changes do not explain when the drop began. `images/event_timeline.png` marks three dated events from Google News (listed with links in `data/events.csv`): Ontario announced HART hubs and a ban on supervised consumption sites near schools on 20 August 2024, approved nine sites to become HART hubs on 2 January 2025, and the nine sites were due to close at the end of March 2025. Opioid deaths had already fallen from 581 in Q3 2024 to 436 in Q4 2024 and 330 in Q1 2025 before any site closed. The decline was also national: opioid deaths fell 15.4% in Ontario in 2024 (2,638 to 2,231) and 17.1% across Canada ([CATIE, 1 August 2025](https://www.catie.ca/prevention-in-focus/reported-drug-toxicity-deaths-dropped-in-parts-of-canada-in-2024-but-whats)). CATIE lists possible causes, none of them proven: lower fentanyl concentration in the unregulated supply, more sedatives such as benzodiazepines and xylazine in it, a shift from injecting to smoking, fewer people using drugs, and the deaths of many people at highest risk in earlier years. The events are annotations only and are not inputs to any model.
+
+![Ontario deaths with policy events](images/event_timeline.png)
+
 ## Power BI Report
 
 `powerbi/ontario_forecast.pbix` has three pages, also exported as `powerbi/ontario_forecast.pdf`. The first shows each Ontario series with the Python ARIMA forecast and its 95% interval. The second compares Ontario and Canada annual rates. The third uses Power BI's built-in forecast on opioid deaths: with the last six quarters hidden it predicted about 600 deaths a quarter for Q4 2024 to Q1 2026, the same over-forecast as the other tools.
@@ -66,6 +70,8 @@ How each series moves through 02_holdout_and_forecast.py.
 `scripts/05_forecast.R` repeats the holdout test and forecast in R with the forecast package (snaive, ets, auto.arima, and auto.arima with a level-shift regressor). It writes `results/r_holdout_metrics.csv`, `results/r_forecasts.csv` and `images/r_forecast_<series>.png`. Run it with `Rscript scripts/05_forecast.R` after script 01; it needs the forecast package.
 
 `scripts/06_powerbi_export.py` writes `powerbi/powerbi_quarterly.csv` (actual counts for Ontario and Canada plus the Ontario forecasts with interval bounds). `powerbi/POWERBI_STEPS.md` has the steps for building the report.
+
+`scripts/07_event_timeline.py` draws Ontario opioid and stimulant deaths per quarter from Q1 2022 with the events in `data/events.csv` and writes `images/event_timeline.png`.
 
 To run them: `pip install -r requirements.txt`, then run the Python scripts in number order from the repository root. Script 05 needs R and the forecast package.
 
