@@ -51,7 +51,7 @@ The provincial policy changes do not explain when the drop began. `images/event_
 
 ![Data flow](images/diagram-dataflow.svg)
 
-Health Infobase CSV to holdout tests, forecasts, Excel and Power BI.
+Health Infobase CSV to holdout tests, forecasts, Excel and Power BI, plus the event chart and the drug-checking values read from the Toronto dashboard.
 
 ![Holdout and forecast steps](images/diagram-lifecycle.svg)
 
