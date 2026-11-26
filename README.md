@@ -57,6 +57,14 @@ Health Infobase CSV to holdout tests, forecasts, Excel and Power BI, plus the ev
 
 How each series moves through 02_holdout_and_forecast.py.
 
+![Policy, drug supply and deaths, August 2024 to March 2025](images/diagram-timeline.svg)
+
+Ontario policy dates, Toronto drug-checking values and Ontario opioid deaths from August 2024 to March 2025 (dates show month and day). Drug-checking values are monthly and drawn on the first day of the month. Death counts are quarter totals drawn at mid-quarter.
+
+![Why did deaths fall](images/diagram-why-fall.svg)
+
+CATIE's possible causes of the drop, grouped by what this project's data can show. "Supported" means the Toronto data show the change in the same quarter as the drop. It does not show cause.
+
 ## Files
 
 `scripts/01_load_and_profile.py` reads the raw CSV, lists every Ontario and Canada series with its first and last period and its count of missing values (`data/processed/series_inventory.csv`), and writes the quarterly counts in long form (`data/processed/quarterly_on_ca.csv`).
