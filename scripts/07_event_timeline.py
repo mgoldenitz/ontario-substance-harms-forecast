@@ -41,7 +41,9 @@ ax.axvspan(DROP.to_timestamp(), last, color="grey", alpha=0.08, label="Drop from
 top = ax.get_ylim()[1]
 for i, row in enumerate(events.itertuples(), start=1):
     ax.axvline(row.date, color="black", lw=0.8, ls=":")
-    ax.annotate(f"{i}. {row.short_label}\n{row.date:%d %b %Y}", (row.date, top * (0.97 - 0.09 * (i - 1))),
+    # day 1 marks a monthly value, so show only the month
+    when = f"{row.date:%b %Y}" if row.date.day == 1 else f"{row.date:%d %b %Y}"
+    ax.annotate(f"{i}. {row.short_label}\n{when}",(row.date, top * (0.97 - 0.09 * (i - 1))),
                 xytext=(4, 0), textcoords="offset points", fontsize=8, va="top")
 
 ax.set_title("Ontario opioid and stimulant deaths per quarter, with policy and drug-supply events")
